@@ -484,14 +484,6 @@
                                     <constraint firstAttribute="height" constant="315" id="rmn-8E-Qnr"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfL-aK-uk5">
-                                <rect key="frame" x="137" y="617" width="119" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Agregar Cita"/>
-                                <connections>
-                                    <action selector="agregar_cita_nueva:" destination="36d-aC-bFg" eventType="touchUpInside" id="GRi-KX-9bC"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Autor y Frase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4b5-eS-A3e">
                                 <rect key="frame" x="120" y="316" width="153" height="48"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="40"/>
@@ -506,6 +498,116 @@
                                     <segue destination="YD6-6a-g1a" kind="unwind" unwindAction="voler_a_pantalla_inicioWithSegue:" id="FRC-hh-Bkp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfL-aK-uk5">
+                                <rect key="frame" x="137" y="583" width="119" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Agregar Cita"/>
+                                <connections>
+                                    <action selector="agregar_cita_nueva:" destination="36d-aC-bFg" eventType="touchUpInside" id="GRi-KX-9bC"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sBA-0x-Eki">
+                                <rect key="frame" x="77" y="629" width="239" height="191"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jIZ-Jk-vg3">
+                                        <rect key="frame" x="51" y="48" width="42" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kG7-zD-96L">
+                                        <rect key="frame" x="116" y="48" width="41" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lTN-uN-w13">
+                                        <rect key="frame" x="192" y="20" width="22" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiZ-pw-jsm">
+                                        <rect key="frame" x="30" y="68" width="42" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5CG-ec-Btx">
+                                        <rect key="frame" x="136" y="68" width="41" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sZN-DI-YaB">
+                                                <rect key="frame" x="0.0" y="0.0" width="22" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iI1-Ck-wo8">
+                                        <rect key="frame" x="88" y="68" width="31" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dXp-XK-VC8">
+                                        <rect key="frame" x="72" y="88" width="21" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PYp-Io-FRh">
+                                        <rect key="frame" x="30" y="88" width="89" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Xj-Sh-Xj0">
+                                        <rect key="frame" x="116" y="88" width="61" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hC-lQ-OdC">
+                                        <rect key="frame" x="51" y="108" width="106" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9wz-a9-TZx">
+                                        <rect key="frame" x="72" y="68" width="21" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qnE-eP-5fI">
+                                        <rect key="frame" x="116" y="68" width="21" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hQz-hy-bS0">
+                                        <rect key="frame" x="72" y="133" width="65" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xfl-gr-cfx">
+                                        <rect key="frame" x="72" y="126" width="65" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAT-M9-I60">
+                                        <rect key="frame" x="92" y="151" width="27" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TYC-8L-qEp">
+                                        <rect key="frame" x="0.0" y="20" width="22" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kzk-7d-Ell">
+                                        <rect key="frame" x="22" y="0.0" width="22" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mJ-Um-dEs">
+                                        <rect key="frame" x="171" y="0.0" width="22" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X5j-SS-8pE"/>
                         <color key="backgroundColor" red="0.5855568863395485" green="0.77797552307943918" blue="0.91976243257522583" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -513,12 +615,16 @@
                         <constraints>
                             <constraint firstItem="EbK-64-GyX" firstAttribute="leading" secondItem="X5j-SS-8pE" secondAttribute="leading" constant="60" id="041-yv-JAC"/>
                             <constraint firstItem="tfL-aK-uk5" firstAttribute="top" secondItem="uBe-Ey-GQ0" secondAttribute="bottom" constant="33.333333333333258" id="3wj-HJ-QNU"/>
+                            <constraint firstItem="sBA-0x-Eki" firstAttribute="top" secondItem="tfL-aK-uk5" secondAttribute="bottom" constant="4" id="59d-Mu-GQh"/>
                             <constraint firstItem="uBe-Ey-GQ0" firstAttribute="centerX" secondItem="X5j-SS-8pE" secondAttribute="centerX" id="8WT-jp-H7X"/>
                             <constraint firstItem="uBe-Ey-GQ0" firstAttribute="centerY" secondItem="X5j-SS-8pE" secondAttribute="centerY" id="SU1-mB-8Ub"/>
                             <constraint firstItem="4b5-eS-A3e" firstAttribute="centerX" secondItem="uBe-Ey-GQ0" secondAttribute="centerX" id="YEs-PP-9zw"/>
                             <constraint firstItem="EbK-64-GyX" firstAttribute="top" secondItem="X5j-SS-8pE" secondAttribute="top" constant="50" id="ZoL-vV-r4E"/>
                             <constraint firstItem="tfL-aK-uk5" firstAttribute="centerX" secondItem="X5j-SS-8pE" secondAttribute="centerX" id="a0k-ER-tpi"/>
+                            <constraint firstItem="X5j-SS-8pE" firstAttribute="bottom" secondItem="sBA-0x-Eki" secondAttribute="bottom" constant="32" id="d7F-Ik-Y51"/>
                             <constraint firstItem="uBe-Ey-GQ0" firstAttribute="top" secondItem="4b5-eS-A3e" secondAttribute="bottom" constant="28" id="v3x-wA-x5u"/>
+                            <constraint firstItem="sBA-0x-Eki" firstAttribute="leading" secondItem="X5j-SS-8pE" secondAttribute="leading" constant="77" id="xiu-cI-qUI"/>
+                            <constraint firstItem="X5j-SS-8pE" firstAttribute="trailing" secondItem="sBA-0x-Eki" secondAttribute="trailing" constant="77" id="yjL-sY-nCu"/>
                         </constraints>
                     </view>
                     <connections>
@@ -548,8 +654,17 @@
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
