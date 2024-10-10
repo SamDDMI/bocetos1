@@ -2,7 +2,7 @@
 //  ControladorPantallaCitas.swift
 //  boceto_1
 //
-//  Created by Jadzia Gallegos on 23/09/24.
+//  
 //
 
 

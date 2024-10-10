@@ -2,7 +2,7 @@
 //  boceto_1Tests.swift
 //  boceto_1Tests
 //
-//  Created by Jadzia Gallegos on 18/09/24.
+//  
 //
 
 import XCTest

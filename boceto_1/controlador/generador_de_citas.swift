@@ -2,7 +2,7 @@
 //  generador_de_citas.swift
 //  boceto_1
 //
-//  Created by Jadzia Gallegos on 18/09/24.
+//  
 //
 
 import Foundation
@@ -51,5 +51,6 @@ class GeneradorDeCitas{
         return cita_para_regresar
         
     }
+    
     
 }

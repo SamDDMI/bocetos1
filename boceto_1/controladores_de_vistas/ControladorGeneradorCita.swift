@@ -2,7 +2,7 @@
 //  ControladorGeneradorCita.swift
 //  boceto_1
 //
-//  Created by Jadzia Gallegos on 27/09/24.
+
 //
 
 import UIKit
@@ -20,8 +20,12 @@ class ControladorPantallaAgregarCita: UIViewController{
     @IBAction func agregar_cita_nueva(_ sender: UIButton) {
         cita_creada = Cita(quien_lo_dijo: quien_lo_dijo_view.text!,
                            que_dijo: que_es_lo_que_dijo.text!)
+        confirmacion.text = "se envió correctamente"
+      
+        
     }
     
+    @IBOutlet weak var confirmacion: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

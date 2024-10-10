@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  boceto_1
 //
-//  Created by Jadzia Gallegos on 18/09/24.
+//  
 //
 
 import UIKit
